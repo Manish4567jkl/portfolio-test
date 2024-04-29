@@ -47,14 +47,9 @@ body {
   font-family: var(--font-family);
 }
 
-section {
-  /* max-width: 1100px;
-  margin: auto; */
-}
 
-/* CSS Resets end */
 
-/* Navbar */
+
 nav {
   position: sticky;
   top: 0;
@@ -98,9 +93,7 @@ nav ul li {
   cursor: pointer;
   display: none;
 }
-/* Navbar ends */
 
-/* Hero section */
 .hero {
   display: flex;
   align-items: center;
@@ -130,9 +123,7 @@ nav ul li {
   line-height: var(--line-height);
   padding: 0.3rem 0;
 }
-/* Hero section ends */
 
-/* More about */
 .more-about {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
@@ -147,9 +138,7 @@ nav ul li {
   line-height: var(--line-height);
   padding: 0.4rem;
 }
-/* More about ends */
 
-/* Skills section */
 .skills {
   max-width: 68.75rem;
   margin: auto;
@@ -169,9 +158,7 @@ nav ul li {
   width: 11.875rem;
   height: 11.25rem;
 }
-/* Skills section ends */
 
-/* Projects section */
 .projects {
   background-color: var(--bg-color);
   padding: 32px 0;
@@ -212,9 +199,7 @@ nav ul li {
   margin-bottom: var(--bottom-margin);
 }
 
-/* Projects section ends */
 
-/* Contacts section */
 .contact {
   margin-top: 2rem;
 }
@@ -276,9 +261,7 @@ nav ul li {
   border: 2px solid var(--primary-color);
   cursor: pointer;
 }
-/* Contacts section ends */
 
-/* Social buttons */
 .socials {
   display: flex;
   flex-direction: column;
@@ -291,9 +274,7 @@ nav ul li {
   width: 2rem;
   height: 2rem;
 }
-/* Social button ends */
 
-/* Scroll to top button */
 .scroll-up {
   position: fixed;
   right: 0.5%;
@@ -305,18 +286,14 @@ nav ul li {
   width: 3rem;
   height: 3rem;
 }
-/* Scroll to top button ends */
 
-/* Footer section */
 footer {
   background-color: var(--bg-color);
   padding: 1.25rem;
   text-align: center;
   margin: 2rem 0 0;
 }
-/* Footer section ends */
 
-/* General (utilities) */
 .icon-card {
   background-color: #fff;
   border-radius: 11px;
@@ -333,7 +310,7 @@ footer {
   margin: 10px;
 }
 
-/* Media queries for responsiveness */
+
 @media screen and (max-width: 720px) {
   nav {
     padding: 1.5rem 1rem;
