@@ -104,13 +104,18 @@ nav ul li {
 }
 
 .hero img {
-  height: 37.5rem;
-  width: 37.5rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  object-fit: contain;
+  height: 22rem;
+  width: 25rem;
 }
 
 .bio {
   width: 25rem;
   padding: 0.625rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
   border-radius: 6px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
